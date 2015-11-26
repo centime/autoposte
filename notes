@@ -1,0 +1,38 @@
+
+
+Adresse destinataire
+
+	Civilité * : recipientCivility
+		mr
+		mme
+	Nom * : recipientName (max 20)
+	Prénom * : recipientFirstName (max 15)
+	Adresse 2 * :
+		N° Rue, avenue, boulevard
+			recipientAddress2Number (max 8)
+			recipientAddress2Street (max 27)
+	Code Postal * : receiverZipCode (max 9)
+	Ville * : destVilleCityComboID (list)
+
+{
+	"civilite" : "mr",
+	"nom" : "Monsieur",
+	"prenom" : "Machin",
+	"adresse" : {
+		"numero" : "14",
+		"rue" : " rue machin truc"
+		},
+	"zipCode" : "75013",
+	"ville" : "paris"
+}
+{
+	"civilite" : "mme",
+	"nom" : "Madame",
+	"prenom" : "Machine",
+	"adresse" : {
+		"numero" : "14",
+		"rue" : " rue machin truc"
+		},
+	"zipCode" : "75013",
+	"ville" : "paris"
+}

@@ -1,0 +1,67 @@
+
+**************** autoPoste v0.4 ****************
+
+ - parse ton format de données actuelles et pas du json
+ - peut s'ouvrir à l'aide de CTRL+espace.
+ - contrôle la longueur des données
+ - défile la page jusqu'aux infos du destinataire
+ - ne selectionne pas la ville
+ - ne sait pas s'il doit cocher ou non les checkbox du bas (2 lignes à décommenter dans le fichier content.js)
+ - est chargé pour toutes les pages visitées par chrom(ium) (cette histoire de regexp où il me faut l'URL de la vraie page)
+
+***************  Evolutions ****************
+
+	- validation approfondie des données
+	- plus de valeurs saisies
+	- validation du formulaire
+	- entrée de plusieurs commandes
+	- infos depuis un fichier plutôt que cc/cp
+	- ?
+
+****************************************
+
+Liste des entrées du formulaire :
+
+Adresse expéditeur :
+	j'y touche pas
+
+
+Adresse destinataire
+
+	ID-Destinataire :
+	Raison sociale :
+	Service :
+	Civilité * :
+	Nom * :
+	Prénom * :
+	Tél. portable :
+	Tél. fixe :
+	E-mail :
+	Confimation e-mail :
+	Adresse :
+		Bâtiment
+		Escalier
+		Etage
+	Adresse 2 * :
+		N° Rue, avenue, boulevard
+	Adresse 3 :
+		Lieu-dit - Résidence
+	Adresse 4 :
+	Code Postal * :
+	Ville * :
+	Code portes 
+
+
+Informations complémentaires
+
+	Nom sur la sonnette / Interphone :
+	Le destinataire dispose d'une boîte à lettres normalisée :aide
+		Oui Non
+	Numéro de boîte à lettres :
+	Ref. Expédition :
+	Informations complémentaires pour le facteur :
+	Autres :
+
+options :
+	Ajouter au carnet d'adresses
+	Le responsable du traitement est La Poste/ColiPoste
